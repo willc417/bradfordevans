@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: auto;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.fullSizeImage {
+
+  height: 300px;
+  width: auto;
+  align-items: center;
+}
+
+.Background {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    width: auto;
+}
