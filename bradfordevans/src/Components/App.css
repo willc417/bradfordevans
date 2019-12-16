@@ -1,0 +1,60 @@
+.navbar {
+  height: 75px;
+  width: auto;
+  background-color: #ffffff;
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerText {
+  font-family: cursive;
+}
+
+.imageHolder {
+  justify-content: center;
+  display: flex;
+}
+
+.frontPageImage {
+    height: 500px;
+    width: auto;
+}
+.frontPageText {
+  font-size: 30px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%
+}
+
+.logoList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoListItem {
+  float: left;
+  padding: 10px;
+}
+
+.footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}

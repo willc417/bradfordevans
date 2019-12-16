@@ -1,14 +1,14 @@
 import React from 'react';
-
-import AppBar from '@material-ui/core/AppBar';
+import './App.css';
 
 class NavBar extends React.Component {
 
   render() {
      return(
-    <AppBar position="static" style={{backgroundColor: 'black'}}>
-      <text>Bradford Evans</text>
-    </AppBar>);
+       <header className="navbar">
+       <p className="headerText">Bradford Evans</p>
+       </header>
+  );
   }
 }
 
