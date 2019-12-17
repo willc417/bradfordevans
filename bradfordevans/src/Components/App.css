@@ -1,9 +1,7 @@
 .navbar {
   height: 75px;
   width: auto;
-  background-color: #ffffff;
   color: black;
-  margin-bottom: 15px;
   text-align: center;
   font-size: 30px;
   display: flex;
@@ -13,13 +11,18 @@
 
 .headerText {
   font-family: cursive;
+  color: black;
+}
+
+.textLink {
+    color: inherit;
+    text-decoration: none;
 }
 
 .imageHolder {
   justify-content: center;
   display: flex;
 }
-
 .frontPageImage {
     height: 500px;
     width: auto;
@@ -28,7 +31,25 @@
   font-size: 30px;
   font-family: cursive;
   display: flex;
+  color: black;
+  text-decoration: none;
   justify-content: center;
+}
+
+.musicPageBackground {
+    background-image: url('../images/brad_couch.jpg');
+    height: inherit;
+    width: inherit;
+    background-size: 300px;
+    background-repeat: repeat;
+    padding: 50px;
+}
+
+.spotifyLinkList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -53,7 +74,8 @@
 }
 
 .footer {
-  position:absolute;
+  position: relative;
+  background: none;
   left:0;
   bottom:0;
   right:0;
