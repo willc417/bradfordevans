@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, BrowserRouter} from "react-router-dom";
+import {Link} from "react-router-dom";
 import './App.css';
 
 import story_0 from '../images/story_0.jpg'
@@ -12,7 +12,6 @@ import visual_1 from '../images/visual_1.jpg'
 class FrontPage extends React.Component {
   render() {
     return (
-      <BrowserRouter>
       <div className="imageHolder">
       <Link to="/music" className="textLink">
       <div src={audio_0} >
@@ -42,7 +41,7 @@ class FrontPage extends React.Component {
       </div>
       </Link>
       </div>
-      </BrowserRouter>
+
     );
     }
 }
