@@ -5,7 +5,6 @@ class Music extends React.Component {
   render () {
     return (
       <div className="musicPageBackground">
-      <div className="musicPageBackgroundImage">
       <div className="musicContainer">
         <div className="musicPageItem">
           <iframe title="Gwynplaine Player" src="https://open.spotify.com/embed/track/1PNLld0FBm2yo1pcD6Z0Qx"
@@ -29,7 +28,6 @@ class Music extends React.Component {
       </div>
       <div>
         <iframe title="Vs" src="https://open.spotify.com/embed/album/2NzDQildLvQnW0PbkBGKTp" className="iframe"/>
-      </div>
       </div>
       </div>
       </div>
