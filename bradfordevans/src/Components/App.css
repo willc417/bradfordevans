@@ -22,6 +22,7 @@
 .imageHolder {
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 }
 .frontPageImage {
     height: 60vh;
@@ -39,8 +40,17 @@
 .musicPageBackground {
     background-image: url('../images/brad_couch.jpg');
     height: 100vh;
-    width: 100vw;
+    width: auto;
     background-size: 20vh;
+    background-repeat: repeat;
+    padding: 50px;
+}
+
+.videoPageBackground {
+    background-image: url('../images/video_background.jpg');
+    height: 100vh;
+    width: auto;
+    background-size: 50vh;
     background-repeat: repeat;
     padding: 50px;
 }
@@ -56,7 +66,7 @@
 .musicContainer {
   display: flex;
   flex-wrap: wrap;
-  margin: 10;
+  margin: 10px;
   justify-content: center;
 }
 
@@ -75,6 +85,17 @@
   allowtransparency: True;
   allow: "encrypted-media"
 }
+
+.iframe_video {
+  height: 80vh;
+  width: 80vw;
+}
+.videoHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 .logo {
   height: 4vh;
