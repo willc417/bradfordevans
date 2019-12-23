@@ -12,11 +12,10 @@ import visual_1 from '../images/visual_1.jpg'
 class FrontPage extends React.Component {
   render() {
     return (
-      <div className="frontPageBackground">
       <div className="imageHolder">
       <Link to="/music" className="textLink">
-      <div>
-      <img className="frontPageImage" src={audio_0}
+      <div src={audio_0} >
+      <img className="frontPageImage"
           alt="Brad with a guitar"
           onMouseOver={e => (e.currentTarget.src = audio_1)}
           onMouseOut={e => (e.currentTarget.src = audio_0)}/>
@@ -24,7 +23,7 @@ class FrontPage extends React.Component {
       </div>
       </Link>
       <Link to="/story" className="textLink">
-      <div>
+      <div src={audio_0} >
       <img className="frontPageImage" src={visual_0}
           alt="Brad in bed"
           onMouseOver={e => (e.currentTarget.src = visual_1)}
@@ -33,7 +32,7 @@ class FrontPage extends React.Component {
       </div>
       </Link>
       <Link to="/video" className="textLink">
-      <div>
+      <div src={audio_0}>
       <img className="frontPageImage" src={story_0}
           alt="Brad with a red sweater"
           onMouseOver={e => (e.currentTarget.src = story_1)}
@@ -41,7 +40,6 @@ class FrontPage extends React.Component {
       <p className="frontPageText">Video</p>
       </div>
       </Link>
-      </div>
       </div>
     );
     }

@@ -24,7 +24,7 @@
   display: flex;
 }
 .frontPageImage {
-    height: 500px;
+    height: 60vh;
     width: auto;
 }
 .frontPageText {
@@ -38,23 +38,46 @@
 
 .musicPageBackground {
     background-image: url('../images/brad_couch.jpg');
-    height: inherit;
-    width: inherit;
-    background-size: 300px;
+    height: 100vh;
+    width: 100vw;
+    background-size: 20vh;
     background-repeat: repeat;
     padding: 50px;
 }
 
 .spotifyLinkList {
   list-style-type: none;
+  justify-content: center;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;
+  height: inherit;
+  width: inherit;
+}
+.musicContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10;
+  justify-content: center;
+}
+
+.iframe {
+  height: 40vh;
+  width: auto;
+  frameborder: 10;
+  allowtransparency: True;
+  allow: "encrypted-media"
+}
+
+.iframe_araby {
+  height: 40vh;
+  width: 40vw;
+  frameborder: 10;
+  allowtransparency: True;
+  allow: "encrypted-media"
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 4vh;
   border-radius: 50%
 }
 
@@ -69,13 +92,11 @@
 }
 
 .logoListItem {
-  float: left;
   padding: 10px;
 }
 
 .footer {
   position: relative;
-  background: none;
   left:0;
   bottom:0;
   right:0;
