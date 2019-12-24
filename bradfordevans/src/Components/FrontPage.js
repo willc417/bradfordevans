@@ -19,7 +19,7 @@ class FrontPage extends React.Component {
           alt="Brad with a guitar"
           onMouseOver={e => (e.currentTarget.src = audio_1)}
           onMouseOut={e => (e.currentTarget.src = audio_0)}/>
-      <p className="frontPageText">Music</p>
+      <p className="frontPageText" style={{textShadow: "0 0 0.2em blue"}}>Music</p>
       </div>
       </Link>
       <Link to="/story" className="textLink">
@@ -28,7 +28,7 @@ class FrontPage extends React.Component {
           alt="Brad in bed"
           onMouseOver={e => (e.currentTarget.src = visual_1)}
           onMouseOut={e => (e.currentTarget.src = visual_0)}/>
-      <p className="frontPageText">Story</p>
+      <p className="frontPageText" style={{textShadow: "0 0 0.2em gold"}}>Story</p>
       </div>
       </Link>
       <Link to="/video" className="textLink">
@@ -37,7 +37,7 @@ class FrontPage extends React.Component {
           alt="Brad with a red sweater"
           onMouseOver={e => (e.currentTarget.src = story_1)}
           onMouseOut={e => (e.currentTarget.src = story_0)}/>
-      <p className="frontPageText">Video</p>
+      <p className="frontPageText" style={{textShadow: "0 0 0.2em red"}}>Video</p>
       </div>
       </Link>
       </div>
