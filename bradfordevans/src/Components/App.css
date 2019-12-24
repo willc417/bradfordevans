@@ -12,6 +12,7 @@
 .headerText {
   font-family: cursive;
   color: black;
+  text-shadow: 2px 2px gray, 0 0 0.2em silver;
 }
 
 .textLink {
@@ -39,7 +40,7 @@
 
 .musicPageBackground {
     background-image: url('../images/brad_couch.jpg');
-    height: 100vh;
+    height: auto;
     width: auto;
     background-size: 20vh;
     background-repeat: repeat;
@@ -53,6 +54,28 @@
     background-size: 50vh;
     background-repeat: repeat;
     padding: 50px;
+}
+
+.storyPageBackground {
+    height: inherit;
+    display: flex;
+    width: inherit;
+}
+
+.storyPageImage {
+    height: 60vh;
+    width: auto;
+}
+
+.storyPageText {
+  height: inherit;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d4af37;
+  font-size: larger;
+  margin-left: 10px;
+  vertical-align: middle;
+  text-shadow: 2px 2px 2px black, 0 0 1em blue, 0 0 0.2em red;
 }
 
 .spotifyLinkList {
@@ -80,7 +103,7 @@
 
 .iframe_araby {
   height: 40vh;
-  width: 40vw;
+  width: auto;
   frameborder: 10;
   allowtransparency: True;
   allow: "encrypted-media"
