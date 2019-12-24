@@ -2,7 +2,7 @@ import React from 'react';
 import "./App.css"
 
 import spotify from '../images/spotify.png'
-import apple from '../images/apple.png'
+import apple from '../images/apple.jpg'
 import soundcloud from '../images/soundcloud.png'
 import bandcamp from '../images/bandcamp.png'
 import facebook from '../images/facebook.png'

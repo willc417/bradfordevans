@@ -59,6 +59,7 @@
 .storyPageBackground {
     height: inherit;
     display: flex;
+    flex-shrink: 1;
     width: inherit;
 }
 
