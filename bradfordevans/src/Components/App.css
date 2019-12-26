@@ -26,8 +26,8 @@
   flex-wrap: wrap;
 }
 .frontPageImage {
-    height: 60vh;
-    width: auto;
+    height: 80vh;
+    width:  auto;
 }
 .frontPageText {
   font-size: 30px;
@@ -59,13 +59,13 @@
 .storyPageBackground {
     height: inherit;
     display: flex;
-    flex-shrink: 1;
+    flex-wrap: wrap;
     width: inherit;
 }
 
 .storyPageImage {
-    height: 60vh;
-    width: auto;
+    height: auto;
+    width: 100vw;
 }
 
 .storyPageText {

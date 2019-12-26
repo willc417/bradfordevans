@@ -6,8 +6,8 @@ import story_0 from '../images/story_0.jpg'
 import story_1 from '../images/story_1.jpg'
 import audio_0 from '../images/audio_0.jpg'
 import audio_1 from '../images/audio_1.jpg'
-import visual_0 from '../images/visual_0.jpg'
-import visual_1 from '../images/visual_1.jpg'
+import visual_0 from '../images/story_cover_0.jpg'
+import visual_1 from '../images/story_cover_1.jpg'
 
 class FrontPage extends React.Component {
   render() {
