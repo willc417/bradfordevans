@@ -60,12 +60,13 @@
     height: inherit;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: inherit;
 }
 
 .storyPageImage {
-    height: auto;
-    width: 100vw;
+    height: 60vh;
+    width: auto;
 }
 
 .storyPageText {
